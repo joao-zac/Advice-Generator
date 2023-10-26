@@ -1,110 +1,122 @@
-# Frontend Mentor - Advice generator app solution
+<h1 align="center">Advice Generator</h1>
+<div align="center">
 
-This is a solution to the [Advice generator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+![Design-site](./design/desktop-design.jpg)
 
-## Table of contents
+Clique [aqui](https://project-pokedex-cyan.vercel.app/) para conferir o resultado final!
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
+<p align="center"><strong>Status do Projeto:<br></strong> <i>Em andamento</i> 🚧</p>
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
+</div>
+<p align="center">
+<span><strong>Tecnologias e Ferramentas utilizadas:</strong></span>
+<br>
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=ts,js,react,github,git" style="height: 25px;"/>
+  </a>
+</p>
 
-## Overview
+## Índice
 
-### The challenge
+- [1. Resumo do Projeto](#1-resumo-do-projeto)
+- [2. Definição de Produto](#2-definição-de-produto)
+- [3. Design](#3-design)
+- [4. Instalação](#4-instalação)
+- [5. Inicialização](#5-inicialização)
+- [6. Tecnologias e Ferramentas Utilizadas](#6-tecnologias-e-ferramentas-utilizadas)
+- [7. Desafios do Projeto](#7-desafios-do-projeto)
+- [8. Desenvolvedor](#8-desenvolvedor)
 
-Users should be able to:
+## 1. Resumo do Projeto
 
-- 
+Este projeto é um desafio do [Front-End Mentor](https://www.frontendmentor.io) que consiste numa aplicação React que consome uma API que resgata um conselho aleatório.
 
-### Screenshot
+## 2. Definição de Produto
 
-![](./screenshot.jpg)
+O Projeto Advice Generator tem uma página com duas partes principais: **Card** e **Botão**.
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
+### Card
 
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
+O **Card** é o componente principal da aplicação, ela está centralizada na página e dentro possui no topo um id respectivo ao conselho resgatado, o respectivo texto ocupando maior tamanho, um ícone divisor e um **Botão** na parte inferior.
 
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
+## Botão
 
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+O **Botão** é responsável por ativar a função que requisitará a API, ele está posicionado de forma que fique meio fora do **Card** meio dentro. Quando o usuário passar o mouse sobre, é preciso exibir um efeito neon que destaque o mesmo.
 
-### Links
+## 3. Design
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+O Design foi fornecido pela desafiador, foram dadas sontes, cores e imagens de refêrencia para o projeto, é possível vê-los no arquivo [style-guide.md](style-guide.md). Segue as imagens de referência:
 
-## My process
+### Desktop
 
-### Built with
+![Desktop](./design/desktop-design.jpg)
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+### Estados ativados
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+![Estados ativados](./design/active-states.jpg)
 
-### What I learned
+### Mobile
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+![Mobile](./design/mobile-design.jpg)
 
-To see how you can add code snippets, see below:
+## 4. Instalação
 
-```html
-<h1>Some HTML code I'm proud of</h1>
+### Pré-requisitos:
+
+- Node.js
+- npm
+
+Para instalar as dependências no diretório do seu projeto, execute o seguinte comando:
+
 ```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
+npm install
 ```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+## 5. Inicialização
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+Para iniciar o aplicativo, execute o seguinte comando:
 
-### Continued development
+```
+npm run dev
+```
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+## 6. Tecnologias e Ferramentas Utilizadas
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+Este site foi construído com:
 
-### Useful resources
+- JavaScript
+- TypeScript
+- React
+- Axios
+- API
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+## 7. Desafios do Projeto
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- **Gerais:**
 
-## Author
+  - [✔️] O site deve seguir o [design](style-guide.md) proposto;
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+  - [✔️] A aplicação deve consumir a API [Advice Slip](https://api.adviceslip.com "Slip advide API").
+  - [✔️] Criar um readme do projeto;
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+- **Botão:**
 
-## Acknowledgments
+  - [✔️] Estar localizado exatamente como no design;
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+  - [✔️] Efeito neon quando o pointer estiver sobre;
 
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+  - [✔️] Disparar função que requisitará a API;
+
+- **Responsividade**
+
+  - [✔️] Mudar o tamanho do ícone quando dimensões mobile.
+
+  - [❌] Estar devidamente responsivo para outras dimensões de dispositivos.
+
+## 8. Desenvolvedor
+
+Este projeto foi Proposto por: [Front-End Mentor](https://www.frontendmentor.io)
+
+Desenvolvido por:
+
+**João Zacarias** : [LinkedIn](https://br.linkedin.com/in/joão-zacarias-neto-593441237) | [GitHub](https://github.com/joao-zac)
