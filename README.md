@@ -3,8 +3,6 @@
 
 ![Design-site](./design/desktop-design.jpg)
 
-Clique [aqui](https://project-pokedex-cyan.vercel.app/) para conferir o resultado final!
-
 <p align="center"><strong>Status do Projeto:<br></strong> <i>Em andamento</i> 🚧</p>
 
 </div>
