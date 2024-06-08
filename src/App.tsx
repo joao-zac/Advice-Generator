@@ -25,7 +25,6 @@ function App() {
       const rep = await api.get(`/advice?timestamp=${new Date().getTime()}`)
       setAdvice(rep.data)
 
-      console.log(advice)
     } catch (error) {
       console.log(error)
     }
